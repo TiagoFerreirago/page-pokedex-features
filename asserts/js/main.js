@@ -74,6 +74,7 @@ loadMore.addEventListener('click', () =>{
   }
   else{
     loadPokemonItens(offset,limit);
+    window.scrollTo(0, 0);
   }
 });
  

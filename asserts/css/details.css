@@ -19,11 +19,15 @@ ol{
         grid-template-columns: repeat(3, 1fr); /* Duas colunas no modo desktop */
         gap: 5rem;    
         height: auto;
-        max-width: 992px;
+        
     }
- 
-}
+    .top{   
 
+        display: flex;
+        margin-bottom: 1rem;
+    }
+  
+}
 .background{
 
     display: flex;
@@ -40,7 +44,7 @@ ol{
     flex-direction: column;
     position: relative; 
     border-radius: 2.5rem 2.5rem 0 0;
-    
+    width: 100%;
 
 }
 
